@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: grey;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content {
+  flex: 1;
+  margin: 80px;
+}
+.image {
+  flex: 1;
+}
+.title {
+  font-size: 50px;
+  white-space: nowrap;
+  position: relative;
+  color: transparent;
+}
+.title::before {
+  content: "Programming Hero";
+  position: absolute;
+  color: aqua;
+  animation: typing 3s linear infinite;
+}
+
+@keyframes typing {
+  0% {
+    content: "P|";
+  }
+  4% {
+    content: "Pr|";
+  }
+  8% {
+    content: "Pro|";
+  }
+  12% {
+    content: "Prog|";
+  }
+  16% {
+    content: "Progr|";
+  }
+  20% {
+    content: "Progra|";
+  }
+  24% {
+    content: "Program|";
+  }
+  28% {
+    content: "Programm|";
+  }
+  32% {
+    content: "Programmi";
+  }
+  36% {
+    content: "Programmin|";
+  }
+  40% {
+    content: "Programming |";
+  }
+  44% {
+    content: "Programming H|";
+  }
+  48% {
+    content: "Programming He|";
+  }
+  52% {
+    content: "Programming Her|";
+  }
+  56% {
+    content: "Programming Hero|";
+  }
+  60%,
+  83% {
+    content: "Programming Hero|";
+  }
+  84% {
+    content: "Programming Her|";
+  }
+  85% {
+    content: "Programming He||";
+  }
+  86% {
+    content: "Programming H|";
+  }
+  87% {
+    content: "Programming |";
+  }
+  88% {
+    content: "Programmin|";
+  }
+  89% {
+    content: "Programmi|";
+  }
+  90% {
+    content: "Programm|";
+  }
+  91% {
+    content: "Program|";
+  }
+  92% {
+    content: "Progra|";
+  }
+  93% {
+    content: "Progr|";
+  }
+  94% {
+    content: "Prog|";
+  }
+  95% {
+    content: "Pro|";
+  }
+  96% {
+    content: "Pr|";
+  }
+  97% {
+    content: "P|";
+  }
+  98% {
+    content: "|";
+  }
+  99% {
+    content: "|";
+  }
+  100% {
+    content: "|";
+  }
+}
